@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "Rostov";
+  src: url(./assets/fonts/Rostov.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway";
+  background-color: #fff;
+  background-image: url("./assets/background.png");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+body .wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+body .wrapper .headerContainer {
+  margin-top: 43px;
+  display: flex;
+  justify-content: space-between;
+}
+body .wrapper .headerContainer .headerLogo {
+  width: 10%;
+  height: 10%;
+}
+body .wrapper .mainContainer .promoBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .wrapper .mainContainer .promoBlock .bigText {
+  line-height: 200px;
+  font-family: "Montserrat";
+  margin-top: 80px;
+  font-size: 200px;
+  color: #fff;
+  font-weight: 500;
+}
+body .wrapper .mainContainer .promoBlock .bigText :nth-child(2) {
+  margin-left: 134px;
+}
+body .wrapper .mainContainer .promoBlock .smallText {
+  font-family: "Poiret One", sans-serif;
+  width: 245px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #FEF3F3;
+}
+body .wrapper .mainContainer .wrapPhoto {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+body .wrapper .mainContainer .subHero {
+  font-family: "Poiret One", sans-serif;
+  margin: 140px auto 0;
+  text-align: center;
+  font-size: 38px;
+  line-height: 47px;
+  letter-spacing: 1%;
+  color: #000;
+  font-weight: 400;
+}
+body .wrapper .mainContainer .subHero :first-child {
+  margin-bottom: 24px;
+  text-align: start;
+  font-size: 30px;
+  font-weight: 600;
+}
+body .ourService {
+  font-family: "Poiret One", sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+body .ourService .serviceContainer {
+  margin-top: 118px;
+  padding-top: 140px;
+}
+body .ourService .serviceContainer .serviceCaption {
+  text-align: center;
+  font-size: 78px;
+  margin-bottom: 70px;
+}
+body .ourService .serviceContainer .services {
+  margin: 0 auto;
+  padding-bottom: 100px;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  justify-content: center;
+  font-size: 56px;
+}
+body .ourService .serviceContainer .services :nth-child(n) {
+  padding: 20px 62px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+}
+body .workContainer .ourWorks {
+  margin-top: 200px;
+}
+body .workContainer .ourWorks .workCaption {
+  font-size: 78px;
+  font-weight: 300;
+}
+body .workContainer .ourWorks .workDescription {
+  font-weight: 200;
+  margin-top: 20px;
+  font-size: 38px;
+  width: 800px;
+  color: #A4A4A4;
+}
+body .workContainer .ourWorks .workCardBlock {
+  margin-top: 100px;
+}
+body .workContainer .ourWorks .workCardBlock :nth-child(even) {
+  flex-direction: row-reverse;
+}
+body .workContainer .ourWorks .workCardBlock .workCard {
+  margin-bottom: 130px;
+  font-family: "Poiret One", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .workContainer .ourWorks .workCardBlock .workCard :last-child {
+  margin-bottom: 0;
+}
+body .workContainer .ourWorks .workCardBlock .workCard .picContainer {
+  width: 500px;
+  height: 500px;
+}
+body .workContainer .ourWorks .workCardBlock .workCard .picContainer .picWorkCard {
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  -o-object-position: center;
+     object-position: center;
+}
+body .workContainer .ourWorks .workCardBlock .workCard .cardDesc {
+  width: 800px;
+  text-align: center;
+}
+body .workContainer .ourWorks .workCardBlock .workCard .cardDesc .cardDescCaption {
+  font-size: 56px;
+}
+body .workContainer .ourWorks .workCardBlock .workCard .cardDesc .cardDescTitle {
+  margin-top: 35px;
+  font-size: 22px;
+}
+body .blockReview .reviewCaption {
+  font-size: 156px;
+  text-align: center;
+}
+body .blockReview .reviewSlider {
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .blockReview .reviewSlider .reviewBlockCard {
+  width: 540px;
+  border: 1px solid red;
+}
+body .blockReview .reviewSlider .reviewBlockCard .reviewCard {
+  margin: 40px 40px auto 40px;
+  border: 1px solid green;
+}
+body .blockReview .reviewSlider .reviewBlockCard .reviewCard .reviewText {
+  font-size: 30px;
+  text-align: start;
+  line-height: 42xp;
+}
+body .blockReview .reviewSlider .reviewBlockCard .reviewCard .reviewAuthor {
+  margin-top: 100px;
+  display: flex;
+  font-size: 26px;
+  justify-content: start;
+  align-items: center;
+}
+body .blockReview .reviewSlider .reviewBlockCard .reviewCard .reviewAuthor p {
+  margin-left: 13px;
+}/*# sourceMappingURL=style.css.map */
